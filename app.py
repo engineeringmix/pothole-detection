@@ -10,7 +10,7 @@ import torch
 
 # Configure page
 st.set_page_config(
-    page_title="AI Pothole Detection & Severity Analysis",
+    page_title="SmartRoad AI: Pothole Detection and Severity Analysis",
     page_icon="🛣️",
     layout="wide"
 )
