@@ -102,7 +102,7 @@ def process_image(image, model, confidence):
     return Image.fromarray(rgb_image), detections
 
 def main():
-    st.markdown("<h1 class='main-header'>🛣️ SmartRoad AI: Pothole Detection System</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='main-header'>🛣️ SmartRoad AI: Pothole Detection and Severity Analysis</h1>", unsafe_allow_html=True)
 
     model = load_model()
     if model is None:
