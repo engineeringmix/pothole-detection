@@ -32,7 +32,7 @@ st.markdown("""
 @st.cache_resource
 def load_model():
     try:
-        return YOLO('best-1.pt')  # Update with your trained model path if needed
+        return YOLO('best.pt')  # Update with your trained model path if needed
     except Exception as e:
         st.error("Model not found! Please upload your trained model file.")
         st.error(e)
