@@ -6,7 +6,7 @@ from PIL import Image
 
 # Configure page
 st.set_page_config(
-    page_title="SmartRoad AI - Pothole Detection",
+    page_title="AI Pothole Detection & Severity Analysis",
     page_icon="🛣️",
     layout="wide"
 )
