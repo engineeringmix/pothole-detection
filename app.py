@@ -7,7 +7,7 @@ from PIL import Image
 # Load your model
 @st.cache_resource
 def load_model():
-    return YOLO('runs/detect/train2/weights/best.pt')  # Update with path to your trained model
+    return YOLO('best.pt')  # Update with path to your trained model
 model = load_model()
 def get_severity(area, img_area):
     rel_area = (area / img_area) * 100
